@@ -16,10 +16,10 @@ def login() :
     driver.get('https://aumsam.amrita.edu/cas/login?service=https%3A%2F%2Faumsam.amrita.edu%2Faums%2FJsp%2FCore_Common%2Findex.jsp')
 
     username = driver.find_element_by_xpath('//*[@id="username"]')
-    username.send_keys('AM.EN.U4CSE21424')
+    username.send_keys('')
 
     password = driver.find_element_by_xpath('//*[@id="password"]')
-    password.send_keys('gopi1234A!')
+    password.send_keys('')
 
     loginbar = driver.find_element_by_xpath('//*[@id="fm1"]/section[3]/input[3]')
     loginbar.click()
