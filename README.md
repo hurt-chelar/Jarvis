@@ -19,6 +19,6 @@ This is a voice assistant created using python Libraries.
 
 ### Abilities in Testing 
 
-* Demo.py File - This is a testing function which takes the input sentence and matches with the set of keywords. If we get a 70% or greater match then the command is executed otherwise this is neglected in contrast to the intital case where it will be activated only if we have the specific words are in place. 
+* Demo.py File - This is a testing function which takes the input sentence and matches with the set of keywords. If we get a 70% or greater match then the command is executed otherwise this is neglected in contrast to the intital case where it will be activated only if we have the specific words in place. 
 
 + Automation-Browser- This is a browser automation feature which will help to use browser with voice, features include being able to close and open new tabs,search history & eveything that can be done with a keyboard shortcut command. 
